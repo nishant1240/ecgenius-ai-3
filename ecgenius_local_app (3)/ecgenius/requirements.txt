@@ -1,0 +1,16 @@
+# --- Core ---
+streamlit>=1.32
+numpy
+scipy
+pandas
+plotly
+scikit-learn
+
+# --- Voice + chatbot (needed for the deployed app) ---
+streamlit-mic-recorder   # in-browser microphone + speech-to-text
+gTTS                     # text-to-speech that works on Streamlit Cloud (English + Hindi)
+requests                 # used for the free Gemini API
+
+# --- Optional (leave commented unless you actually use them) ---
+# anthropic   # only needed if you set ANTHROPIC_API_KEY for the Claude fallback
+# xgboost, shap, wfdb, reportlab
